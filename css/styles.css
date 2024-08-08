@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background: rgb(63, 94, 251);
+  background: black;
+}
+
+.quiz-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px #aaa;
+  background-color: white;
+}
+
+button {
+  margin-top: 10px;
+}
+
+/* Mobile view styles */
+@media only screen and (max-width: 768px) {
+  #quiz-container {
+    width: 90%;
+  }
+
+  #question,
+  #answer-list {
+    font-size: 18px;
+  }
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+/* Hover effect for the answers */
+#answer-list li:hover {
+  background-color: #f5f5f5;
+  /* Light grey color on hover */
+  cursor: pointer;
+}
